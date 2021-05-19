@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://swap.gametoken.finance',
+        href: 'https://dex.apeswap.finance/#/swap?outputCurrency=0xDD87Df4697527e6fBc5586cB0105bD8aB0FA7A61',
       },
       {
         label: 'Liquidity',
-        href: 'http://swap.gametoken.finance/#/pool',
+        href: 'https://dex.apeswap.finance/#/add/0xDD87Df4697527e6fBc5586cB0105bD8aB0FA7A61',
       },
     ],
   },
