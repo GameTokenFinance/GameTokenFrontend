@@ -12,6 +12,34 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://gametoken.finance/',
   },
+  auto: {
+    symbol: 'auto',
+    address: {
+      56: '0xa184088a740c695e156f91f5cc086a06bb78b827',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://autofarm.network/',
+  },
+  
+  ont: {
+    symbol: 'ont',
+    address: {
+      56: '0xfd7b3a77848f1c2d67e05e54d78d174a0c850335',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://ont.io/',
+  },
+  ftm: {
+    symbol: 'ftm',
+    address: {
+      56: '0xad29abb318791d579433d831ed122afeaf29dcfe',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://ont.io/',
+  },
   banana: {
     symbol: 'BANANA',
     address: {

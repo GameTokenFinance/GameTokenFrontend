@@ -16,6 +16,21 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
   },
+
+  {
+    sousId: 1,
+    stakingToken: tokens.gme,
+    earningToken: tokens.watch,
+    contractAddress: {
+      97: '',
+      56: '0x20Df18d9aAD8398cB8609D1A87e230Ff9BaD3833',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '0.001',
+    sortOrder: 999,
+  },
+
   
 ]
 

@@ -72,6 +72,62 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
     
   },
+  {
+    pid: 11,
+    lpSymbol: 'AUTO-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x649A5Ad5135B4bd287e5AcA8d41f4d5e1b52af5C',
+    },
+    token: tokens.auto,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 12,
+    lpSymbol: 'WATCH-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa00A91fBB39051e2a6368424A93895c3f1F2290b',
+    },
+    token: tokens.watch,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 13,
+    lpSymbol: 'ONT-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa00A91fBB39051e2a6368424A93895c3f1F2290b',
+    },
+    token: tokens.ont,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 14,
+    lpSymbol: 'FTM-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x47A0B7bA18Bb80E4888ca2576c2d34BE290772a6',
+    },
+    token: tokens.ftm,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 15,
+    lpSymbol: 'XRP-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x6f0f18f5fcC1466ec41c8106689e10BeFE68D1c0',
+    },
+    token: tokens.xrp,
+    quoteToken: tokens.wbnb,
+    
+  },
+  
  
   // caves (should add token address with lptoken address when add pool)
   {
@@ -110,7 +166,72 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
    },
 
-
+   {
+    pid: 16,
+    lpSymbol: 'Auto',
+     lpAddresses: {
+       97: '',
+       56: '0xa184088a740c695e156f91f5cc086a06bb78b827',
+    },
+    token: tokens.auto,
+    quoteToken: tokens.busd,
+    isTokenOnly: true,
+   },
+   {
+    pid: 17,
+    lpSymbol: 'Ont',
+     lpAddresses: {
+       97: '',
+       56: '0xfd7b3a77848f1c2d67e05e54d78d174a0c850335',
+    },
+    token: tokens.ont,
+    quoteToken: tokens.busd,
+    isTokenOnly: true,
+   },
+   {
+    pid: 18,
+    lpSymbol: 'Sbdo',
+     lpAddresses: {
+       97: '',
+       56: '0x0d9319565be7f53CeFE84Ad201Be3f40feAE2740',
+    },
+    token: tokens.sbdo,
+    quoteToken: tokens.busd,
+    isTokenOnly: true,
+   },
+   {
+    pid: 19,
+    lpSymbol: 'Watch',
+     lpAddresses: {
+       97: '',
+       56: '0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0',
+    },
+    token: tokens.watch,
+    quoteToken: tokens.busd,
+    isTokenOnly: true,
+   },
+   {
+    pid: 20,
+    lpSymbol: 'Xrp',
+     lpAddresses: {
+       97: '',
+       56: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
+    },
+    token: tokens.xrp,
+    quoteToken: tokens.busd,
+    isTokenOnly: true,
+   },
+   {
+    pid: 21,
+    lpSymbol: 'Zil',
+     lpAddresses: {
+       97: '',
+       56: '0xb86abcb37c3a4b64f74f59301aff131a1becc787',
+    },
+    token: tokens.zil,
+    quoteToken: tokens.busd,
+    isTokenOnly: true,
+   },
    
 ]
 
