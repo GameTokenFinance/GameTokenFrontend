@@ -99,7 +99,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ONT-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xa00A91fBB39051e2a6368424A93895c3f1F2290b',
+      56: '0x924D3f2F94618e8Ee837d4C2b8d703F0de12a57e',
     },
     token: tokens.ont,
     quoteToken: tokens.wbnb,
