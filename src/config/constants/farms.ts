@@ -51,6 +51,37 @@ const farms: FarmConfig[] = [
   },
 
   {
+    pid: 29,
+    lpSymbol: 'GME-CAKE LP',
+    lpAddresses: {
+      97: '',
+      56: '0xd165Cd69B44A1505036141234F4c981C09CCae57',
+    },
+    token: tokens.gme,
+    quoteToken: tokens.cake,    
+  },
+  {
+    pid: 30,
+    lpSymbol: 'GME-DOT LP',
+    lpAddresses: {
+      97: '',
+      56: '0xD7d030879117064230Bc6C1bA04a03d9b611624F',
+    },
+    token: tokens.gme,
+    quoteToken: tokens.dot,    
+  },
+
+  {
+    pid: 31,
+    lpSymbol: 'GME-USDC LP',
+    lpAddresses: {
+      97: '',
+      56: '0x41c748907d2dd9C351bB23E979720356e6f08adC',
+    },
+    token: tokens.gme,
+    quoteToken: tokens.usdc,    
+  },
+  {
     pid: 8,
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
