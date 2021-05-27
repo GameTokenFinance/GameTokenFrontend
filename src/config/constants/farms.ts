@@ -161,6 +161,51 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
     
   },
+  {
+    pid: 25,
+    lpSymbol: 'LTC-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x0F12362c017Fe5101c7bBa09390f1CB729f5B318',
+    },
+    token: tokens.ltc,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 26,
+    lpSymbol: 'DOT-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x21CBb561c5d7D70e9E6Cc42136CB22F07552aEef',
+    },
+    token: tokens.dot,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 27,
+    lpSymbol: 'USDC-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0xC087C78AbaC4A0E900a327444193dBF9BA69058E',
+    },
+    token: tokens.usdc,
+    quoteToken: tokens.busd,
+    
+  },
+  {
+    pid: 28,
+    lpSymbol: 'BUSDT-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x2e707261d086687470B515B320478Eb1C88D49bb',
+    },
+    token: tokens.busdt,
+    quoteToken: tokens.busd,
+    
+  },
+  
   
  
   // caves (should add token address with lptoken address when add pool)

@@ -39,6 +39,15 @@ const tokens = {
     decimals: 18,
     projectLink: '',
   },
+  busdt: {
+    symbol: 'busdt',
+    address: {
+      56: '0x55d398326f99059ff775485246999027b3197955',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: '',
+  },
   aave: {
     symbol: 'aave',
     address: {
