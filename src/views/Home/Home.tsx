@@ -27,7 +27,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/bnnr4.png');
+    background-image: url('/images/banner.png');
     background-position: center;
     height: 240px;
     padding-top: 0;
