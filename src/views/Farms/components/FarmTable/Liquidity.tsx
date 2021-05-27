@@ -2,11 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { HelpIcon, Text } from '@gametoken/uikit'
 import useI18n from 'hooks/useI18n'
+import BigNumber from 'bignumber.js'
 
 import Tooltip from '../Tooltip/Tooltip'
 
 export interface LiquidityProps {
-  liquidity: number
+  liquidity: BigNumber
 }
 
 const LiquidityWrapper = styled.div`
