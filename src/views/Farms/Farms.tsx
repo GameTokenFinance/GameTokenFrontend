@@ -105,6 +105,12 @@ const StyledImage = styled(Image)`
   margin-top: 58px;
 `
 
+const TopImage = styled(Image)`
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+`
+
 const Header = styled.div`
   padding: 32px 0px;
   background: ${({ theme }) => theme.colors.gradients.bubblegum};
@@ -365,10 +371,14 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
    
      <>
       <PageHeader>
+      
     <Heading size="xl" color="text" style={{ textAlign: 'center', marginBottom: "10px" }}>
+   
       {!tokenMode ? TranslateString(999, 'Stake Liquidity Pool (LP) tokens to earn.') :
                       TranslateString(999, 'Stake tokens to earn GME.')}
-      </Heading>   
+                      
+      </Heading> 
+      <TopImage src="/images/gametoken.png" alt="GameTokenFinance" width={429} height={300} />  
       </PageHeader>
       <Page>   
     

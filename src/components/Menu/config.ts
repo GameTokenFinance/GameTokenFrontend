@@ -35,6 +35,7 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
+  
   {
     label: 'GameMarket',
     icon: 'IfoIcon',

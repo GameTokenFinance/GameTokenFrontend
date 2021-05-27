@@ -27,9 +27,9 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/logo.svg'), url('/images/game-world.svg');
-    background-position: left center, right center;
-    height: 165px;
+    background-image: url('/images/bnnr4.png');
+    background-position: center;
+    height: 240px;
     padding-top: 0;
   }
 `
@@ -85,9 +85,9 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Gametoken')}
+          {TranslateString(576, '')}
         </Heading>
-        <Text>{TranslateString(578, 'The #1 Gamer Market on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, '')}</Text>
       </Hero>
       <div>
         <Cards>
