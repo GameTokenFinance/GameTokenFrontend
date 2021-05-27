@@ -127,6 +127,40 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
     
   },
+  {
+    pid: 22,
+    lpSymbol: 'AVAX-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x40aFc7CBd0Dc2bE5860F0035b717d20Afb4827b2',
+    },
+    token: tokens.avax,
+    quoteToken: tokens.wbnb,
+    
+  },
+  {
+    pid: 23,
+    lpSymbol: 'MATIC-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x29A4A3D77c010CE100A45831BF7e798f0f0B325D',
+    },
+    token: tokens.matic,
+    quoteToken: tokens.wbnb,
+    
+  },
+
+  {
+    pid: 24,
+    lpSymbol: 'AAVE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xf13e007e181A8F57eD3a4D4CcE0A9ff9E7241CEf',
+    },
+    token: tokens.aave,
+    quoteToken: tokens.wbnb,
+    
+  },
   
  
   // caves (should add token address with lptoken address when add pool)

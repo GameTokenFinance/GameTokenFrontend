@@ -21,6 +21,33 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://autofarm.network/',
   },
+  avax: {
+    symbol: 'avax',
+    address: {
+      56: '0x1ce0c2827e2ef14d5c4f29a091d735a204794041',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://autofarm.network/',
+  },
+   matic: {
+    symbol: 'matic',
+    address: {
+      56: '0xcc42724c6683b7e57334c4e856f4c9965ed682bd',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: '',
+  },
+  aave: {
+    symbol: 'aave',
+    address: {
+      56: '0xfb6115445bff7b52feb98650c87f44907e58f802',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://aave.com',
+  },
   
   ont: {
     symbol: 'ont',
