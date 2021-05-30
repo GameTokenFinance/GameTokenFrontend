@@ -41,21 +41,7 @@ const Multiplier: React.FunctionComponent<MultiplierProps> = ({ multiplier }) =>
   return (
     <Container>
       <MultiplierWrapper>{displayMultiplier}</MultiplierWrapper>
-      <Tooltip
-        content={
-          <div>
-            {TranslateString(999, 'The multiplier represents the amount of GME rewards each farm gets.')}
-            <br />
-            <br />
-            {TranslateString(
-              999,
-              'For example, if a 1x farm was getting 1 GME per block, a 40x farm would be getting 40 GME per block.',
-            )}
-          </div>
-        }
-      >
-        <HelpIcon color="textSubtle" />
-      </Tooltip>
+  
     </Container>
   )
 }

@@ -10,16 +10,18 @@ import Earned, { EarnedProps } from './Earned'
 import Details from './Details'
 import Multiplier, { MultiplierProps } from './Multiplier'
 import Liquidity, { LiquidityProps } from './Liquidity'
+import Deposit, { DepositProps } from './Deposit'
 import ActionPanel from './Actions/ActionPanel'
 import CellLayout from './CellLayout'
 import { DesktopColumnSchema, MobileColumnSchema } from '../types'
 
-export interface RowProps {
+export interface RowProps { 
   apr: AprProps
   farm: FarmProps
   earned: EarnedProps
   multiplier: MultiplierProps
   liquidity: LiquidityProps
+  deposit: DepositProps
   details: FarmWithStakedValue
 }
 
@@ -29,11 +31,12 @@ const cells = {
   earned: Earned,
   details: Details,
   multiplier: Multiplier,
+  deposit: Deposit,
   liquidity: Liquidity,
 }
 
 const CellInner = styled.div`
-  padding: 24px 0px;
+  padding: 12px 0px;
   display: flex;
   width: 100%;
   align-items: center;

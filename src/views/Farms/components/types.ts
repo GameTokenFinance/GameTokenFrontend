@@ -25,6 +25,7 @@ export type TableDataTypes = {
   EARNED: string
   STAKED: string
   DETAILS: string
+  DEPOSIT: string
   LINKS: string
 }
 
@@ -51,7 +52,7 @@ export const MobileColumnSchema: ColumnsDefTypes[] = [
     label: 'APR',
   },
   {
-    id: 6,
+    id: 7,
     name: 'details',
     translationId: 999,
     sortable: true,
@@ -97,11 +98,19 @@ export const DesktopColumnSchema: ColumnsDefTypes[] = [
   },
   {
     id: 6,
+    name: 'deposit',
+    translationId: 999,
+    sortable: true,
+    label: 'DepositFee',
+  },
+  {
+    id: 7,
     name: 'details',
     translationId: 999,
     sortable: true,
     label: '',
   },
+
 ]
 
 export enum ViewMode {

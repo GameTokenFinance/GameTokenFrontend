@@ -232,6 +232,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         )
       case 'liquidity':
         return orderBy(farms, (farm: FarmWithStakedValue) => Number(farm.liquidity), 'desc')
+
+      
       default:
         return farms
     }
@@ -302,12 +304,17 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         earnings: farm.userData ? getBalanceNumber(new BigNumber(farm.userData.earnings)) : null,
         pid: farm.pid,
       },
+
       liquidity: {
         liquidity: farm.liquidity,
+      },
+      deposit: {
+        deposit: farm.depositFee,
       },
       multiplier: {
         multiplier: farm.multiplier,
       },
+     
       details: farm,
     }
 
@@ -416,6 +423,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
                   label: 'Liquidity',
                   value: 'liquidity',
                 },
+              
               ]}
               onChange={handleSortOptionChange}
             />
