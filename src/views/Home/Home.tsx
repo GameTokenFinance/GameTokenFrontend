@@ -11,7 +11,7 @@ import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
 // import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 // import WinCard from 'views/Home/components/WinCard'
 import TweetCard from './components/TweetCard'
-import ClaimtoV2 from './components/ClaimtoV2'
+
 
 const Hero = styled.div`
   align-items: center;
