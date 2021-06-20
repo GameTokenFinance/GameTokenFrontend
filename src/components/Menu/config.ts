@@ -24,33 +24,85 @@ const config: MenuEntry[] = [
     label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
+   
   },
   {
     label: 'Keys',
-    icon: 'PoolIcon',
+    icon: 'SunIcon',
     href: '/keys',
   },
   {
     label: 'Pools',
-    icon: 'PoolIcon',
+    icon: 'MoonIcon',
     href: '/pools',
   },
-  
   {
-    label: 'GameMarket',
-    icon: 'IfoIcon',
-    href: 'https://gametoken.store',
+    label: 'Our Products',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'GameMarket',
+       
+        href: 'https://gametoken.store',
+      },
+      {
+        label: 'GameDollar',
+       
+        href: 'https://gdollar.gametoken.finance',
+      },
+      {
+        label: 'GameVault',
+        
+        href: 'https://gvault.gametoken.finance',
+      },
+      {
+        label: 'GameNFT',
+        
+        href: '#',
+      },
+    ],
+  },
+ 
+  {
+    label: 'Audit',
+    icon: 'PredictionsIcon',
+    items: [
+      {
+        label: 'RugDoctor',
+       
+        href: 'https://rugdoc.io/project/gametoken/',
+      },
+      {
+        label: 'TechRate',
+       
+        href: 'https://github.com/GameTokenFinance/Contracts/blob/main/audit/GameToken.pdf',
+      },
+    
+    ],
   },
   {
-    label: 'GameDollar',
-    icon: 'IfoIcon',
-    href: 'https://gdollar.gametoken.finance',
+    label: 'Charts',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'DexGuru',
+       
+        href: 'https://dex.guru/token/0xdd87df4697527e6fbc5586cb0105bd8ab0fa7a61-bsc',
+      },
+      {
+        label: 'DappRadar',
+       
+        href: 'https://dappradar.com/binance-smart-chain/marketplaces/gametokenfinance',
+      },
+      {
+        label: 'LiveCoinWatch',
+       
+        href: 'https://www.livecoinwatch.com/price/GameToken-GMEV3',
+      },
+    
+    ],
   },
-  {
-    label: 'GameVault',
-    icon: 'IfoIcon',
-    href: 'https://gvault.gametoken.finance',
-  },
+
 
   {
     label: 'More',
@@ -68,10 +120,7 @@ const config: MenuEntry[] = [
         label: 'Blog',
         href: 'https://medium.com/@GameTokenFi',
       },
-      {
-        label: 'Audit',
-        href: 'https://github.com/GameTokenFinance/Contracts/blob/main/audit/GameToken.pdf',
-      },
+      
     ],
   },
 ]

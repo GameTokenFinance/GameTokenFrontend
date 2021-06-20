@@ -1975,10 +1975,10 @@
     "@ethersproject/properties" "^5.3.0"
     "@ethersproject/strings" "^5.3.0"
 
-"@gametoken/uikit@^0.13.5":
-  version "0.13.5"
-  resolved "https://registry.yarnpkg.com/@gametoken/uikit/-/uikit-0.13.5.tgz#8d1d55d0f4949c8cb740257a36f060300ee14e32"
-  integrity sha512-QzJLfos5fypDDYjnVVTRSjGUm0ftr0b61z6GF/BTsRiOLcb+KMqGIE0q4a87ZgvEVq5tcbDHC/S/G7oIhumZrw==
+"@gametoken/uikit@^0.13.9":
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/@gametoken/uikit/-/uikit-0.13.9.tgz#86abc698aebf41dcc6562dcf1022967fa4a7745b"
+  integrity sha512-zWwURWpXkHnMy0wxUm3ZxpN8yTQ3WJhSE9GQqwFNLc5ecdT01nRdO6u/8N/9HzTciw6ujOZrm3Eq3loAB7+bCQ==
   dependencies:
     "@types/lodash" "^4.14.168"
     "@types/styled-system" "^5.1.10"

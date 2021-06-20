@@ -6,3 +6,4 @@ interface WindowChain {
     request?: (...args: any[]) => void
   }
 }
+ 
